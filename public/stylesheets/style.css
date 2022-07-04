@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+ul {
+  padding: 0px;
+}
+
+.celebrity-name {
+  list-style: none;
+}
