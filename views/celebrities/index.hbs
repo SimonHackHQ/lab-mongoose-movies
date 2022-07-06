@@ -2,7 +2,13 @@
 
 <ul>
     {{#each celebrities}}
-        <li class="celebrity-name">{{name}} | <a href="/celebrities/{{_id}}">Details</a><form action="/celebrities/{{_id}}/delete" method="POST"><button type="submit">Delete</button></form></li>
+        <li class="celebrity-name">
+            {{name}} |
+            <a href="/celebrities/{{_id}}">Details</a>
+            <form action="/celebrities/{{_id}}/delete" method="POST">
+                <button type="submit">Delete</button>
+            </form>
+        </li>
     {{/each}}
 </ul>
 
